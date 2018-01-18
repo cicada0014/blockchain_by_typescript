@@ -1,0 +1,26 @@
+{
+  "name": "blockchain_by_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc ; node build/server.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "nativescript": {},
+  "dependencies": {
+    "@types/express": "^4.11.0",
+    "@types/node": "^9.3.0",
+    "@types/uuid": "^3.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "inversify": "^4.9.0",
+    "inversify-express-utils": "^5.2.0",
+    "morgan": "^1.9.0",
+    "reflect-metadata": "^0.1.12",
+    "uuid": "^3.2.1"
+  }
+}
