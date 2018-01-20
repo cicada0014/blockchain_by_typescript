@@ -12,15 +12,20 @@
   "nativescript": {},
   "dependencies": {
     "@types/express": "^4.11.0",
-    "@types/node": "^9.3.0",
+    "@types/node": "^7.0.43",
+    "@types/request": "^2.0.12",
+    "@types/url-parse": "^1.1.0",
     "@types/uuid": "^3.4.3",
     "body-parser": "^1.18.2",
+    "es6-map": "^0.1.5",
     "express": "^4.16.2",
     "helmet": "^3.9.0",
     "inversify": "^4.9.0",
     "inversify-express-utils": "^5.2.0",
     "morgan": "^1.9.0",
     "reflect-metadata": "^0.1.12",
+    "request": "^2.83.0",
+    "url-parse": "^1.2.0",
     "uuid": "^3.2.1"
   }
 }
