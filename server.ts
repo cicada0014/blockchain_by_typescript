@@ -9,8 +9,6 @@ import * as bodyParser from 'body-parser';
 import * as helmet from 'helmet';
 import * as morgan from 'morgan';
 
-
-
 export class Server {
     private app: express.Application;
     private container: AppContainer;
